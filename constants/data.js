@@ -3,49 +3,29 @@ const userData = {
   name: "Patrick Huang",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.jpg",
-  email: "patpat12345@hotmail.com",
+  email: "phuan097@uottawa.com",
   phone: "647 974 6497",
   address: "Ottawa, Ontario, Canada.",
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
-      imgUrl: "/tmk.jpg",
+      title: "RentApps",
+      link: "https://github.com/patfire12345/rentapps-frontend",
+      imgUrl: "/Rentapps.jpg",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
+      title: "Pathfinder Algorithm",
+      link: "https://github.com/patfire12345/Pathfinder",
+      imgUrl: "/Dijkstra.png",
     },
     {
-      title: "Portfolio",
-      link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      title: "Edu Search",
+      link: "https://github.com/patfire12345/uoec_frontend2020",
+      imgUrl: "/EduSearch1.png",
     },
     {
-      title: "CovidRescue",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
-    },
-    {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
-    },
-    {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
-    },
-    {
-      title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
-    },
-    {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
+      title: "Spotify Tinder",
+      link: "https://github.com/patfire12345/spotify-playlist-maker",
+      imgUrl: "/SpotifyTinder.jpg",
     },
   ],
   about: {
@@ -104,7 +84,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://docs.google.com/document/d/1WN93FEIN7GaPNCjtZQfEVH9W9jejsR-EFF6VQm0bAyU/edit?usp=sharing",
+    "https://docs.google.com/document/d/13QoSElbY9K2YkFIujWFcoDvsSryig5mB0lOx2vVFbmw/edit",
   socialLinks: {
     instagram: "https://instagram.com/patrick.huang9/",
     twitter: "https://twitter.com/",

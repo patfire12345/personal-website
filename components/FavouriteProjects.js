@@ -9,7 +9,7 @@ export default function FavouriteProjects() {
           <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
             Favourite Projects
           </h1>
-          <Link href="/work">
+          <Link href="/projects">
             <a className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,10 +43,10 @@ export default function FavouriteProjects() {
                 src="/Rentapps.jpg"
                 alt="rentapps"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
-                style={{width: "25%", height: "25%"}}
+                style={{ width: "25%", height: "25%" }}
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Rentapps
+                RentApps
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
@@ -66,7 +66,7 @@ export default function FavouriteProjects() {
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                PlaceholderTech
+                Pathfinder Algorithm
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
