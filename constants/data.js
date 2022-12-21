@@ -90,7 +90,7 @@ const userData = {
     twitter: "https://twitter.com/",
     linkedin: "https://www.linkedin.com/in/patrickhuang9/",
     github: "https://github.com/patfire12345",
-    facebook: "https://facebook.com/",
+    facebook: "https://www.facebook.com/patrick.huang.370/",
   },
 };
 
