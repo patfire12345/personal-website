@@ -23,7 +23,7 @@ const userData = {
       imgUrl: "/EduSearch1.png",
     },
     {
-      title: "Spotify Tinder",
+      title: "Spotify Playlist Maker",
       link: "https://github.com/patfire12345/spotify-playlist-maker",
       imgUrl: "/SpotifyTinder.jpg",
     },
@@ -41,12 +41,26 @@ const userData = {
   },
   experience: [
     {
+      title: "Expected Graduation",
+      company: "University of Ottawa",
+      year: "Jun 2023",
+      companyLink: "https://www.uottawa.ca/en",
+      desc: "???",
+    },
+    {
       title: "Software Developer Internship",
       company: "National Hydrological Service",
-      year: "2022",
+      year: "May 2022",
       companyLink:
         "https://ec.gc.ca/meteo-weather/default.asp?lang=En&n=36C4D3AB-1&offset=2",
       desc: "Innovated an Itinerary app using Microsoft PowerApps, with the help of Microsoft Power Automate and Sharepoint Lists.",
+    },
+    {
+      title: "Spotify Playlist Maker",
+      company: "Personal Project",
+      year: "Sept 2021",
+      companyLink: "https://github.com/patfire12345/spotify-playlist-maker",
+      desc: "Created an algorithm that personalizes a playlist based on tinder-like selection process.",
     },
     {
       title: "Web Developer Internship",
@@ -54,6 +68,34 @@ const userData = {
       year: "May 2021",
       companyLink: "https://www.canada.ca/en/treasury-board-secretariat.html",
       desc: "Developed Storybook components to optimize space complexity and reusability of commonly used components, complete transfer of JavaScript files into TypeScript, and creating a 'Report a Problem' email system within Storybook.",
+    },
+    {
+      title: "RentApps",
+      company: "Personal Project",
+      year: "Dec 2020",
+      companyLink: "https://github.com/patfire12345/rentapps-frontend",
+      desc: "After observing inconsistencies within Ottawa's leasing process, I developed an application to standardize the leasing process.",
+    },
+    {
+      title: "Financial Buddy",
+      company: "Hack Western 7",
+      year: "Nov 2020",
+      companyLink: "https://github.com/patfire12345/rentapps-frontend",
+      desc: "By developing a user friendly app that takes in a user's financial position as input, immigrants to Canada can more easily financially ease into our multicultural society.",
+    },
+    {
+      title: "EduSearch",
+      company: "University of Ottawa Engineering Competition",
+      year: "Nov 2020",
+      companyLink: "https://github.com/patfire12345/uoec_frontend2020",
+      desc: "In order to concentrate search results to be more school oriented, my team created a search engine that filtered google queries to primarily educational ones.",
+    },
+    {
+      title: "Pathfinder Algorithm",
+      company: "Personal Project",
+      year: "Aug 2020",
+      companyLink: "https://github.com/patfire12345/Pathfinder",
+      desc: "Adapted Dijkstra's algorithm to create a pathfinding application that maps the shortest route between 2 points with obstacles.",
     },
     {
       title: "University",
