@@ -15,12 +15,12 @@ const userData = {
     {
       title: "Pathfinder Algorithm",
       link: "https://github.com/patfire12345/Pathfinder",
-      imgUrl: "/Dijkstra.png",
+      imgUrl: "/Dijkstra.PNG",
     },
     {
       title: "Edu Search",
       link: "https://github.com/patfire12345/uoec_frontend2020",
-      imgUrl: "/EduSearch.png",
+      imgUrl: "/EduSearch.PNG",
     },
     {
       title: "Spotify Playlist Maker",
