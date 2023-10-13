@@ -20,7 +20,7 @@ const userData = {
     {
       title: "Edu Search",
       link: "https://github.com/patfire12345/uoec_frontend2020",
-      imgUrl: "/EduSearch1.png",
+      imgUrl: "/EduSearch.png",
     },
     {
       title: "Spotify Playlist Maker",
@@ -36,8 +36,8 @@ const userData = {
       `After a few internships around different sectors of the Federal Government of Canada, I got to explore different technologies pertaining to both web development and software development.`,
       `Along with my side projects over the years, recently I've been coding in React, Node.js, Express, MongoDB, MySQL, Bootstrap, Tailwind, C, and C++.`,
     ],
-    currentProject: "Spotify Playlist Maker",
-    currentProjectUrl: "https://tailwindmasterkit.com",
+    currentProject: "Cerulean",
+    currentProjectUrl: "https://iluvpanda.vercel.app",
   },
   experience: [
     {
