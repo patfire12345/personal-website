@@ -10,6 +10,9 @@ module.exports = {
         2000: "2000ms",
         4000: "4000ms",
       },
+      gridTemplateRows: {
+        2: "repeat(2, minmax(0, 350px))",
+      },
     },
   },
   variants: {

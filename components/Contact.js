@@ -1,5 +1,6 @@
 import React from "react";
 import userData from "@constants/data";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -71,7 +72,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="social-icons flex flex-row space-x-8">
-              <a
+              <Link
                 href={userData.socialLinks.facebook}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
               >
@@ -88,8 +89,8 @@ export default function Contact() {
                     fill="currentColor"
                   />
                 </svg>
-              </a>
-              <a
+              </Link>
+              <Link
                 href={userData.socialLinks.instagram}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
               >
@@ -118,7 +119,7 @@ export default function Contact() {
                     fill="currentColor"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
           <form className="form rounded-lg bg-white p-4 flex flex-col">

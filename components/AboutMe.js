@@ -1,5 +1,6 @@
 import React from "react";
 import userData from "@constants/data";
+import Link from "next/link";
 
 export default function AboutMe() {
   return (
@@ -16,12 +17,12 @@ export default function AboutMe() {
             style={{ lineHeight: "3rem" }}
           >
             {userData.about.title}. Currently working on{" "}
-            <a
+            <Link
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
             >
               {userData.about.currentProject} ✈️
-            </a>
+            </Link>
           </p>
         </div>
       </div>
@@ -35,12 +36,12 @@ export default function AboutMe() {
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 If you have any inquiries, shoot an{" "}
-                <a
+                <Link
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   email
-                </a>{" "}
+                </Link>{" "}
                 and I'll get back to you as soon as I can!
               </p>
             </div>
@@ -52,13 +53,13 @@ export default function AboutMe() {
                 In 2023, I am planning to graduate so I am currently looking for
                 employment opportunities. If you think I would be a good fit,
                 feel free to check my{" "}
-                <a
+                <Link
                   href={userData.resumeUrl}
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   CV
-                </a>{" "}
+                </Link>{" "}
                 and I'd love to work for you.
               </p>
             </div>
@@ -68,7 +69,7 @@ export default function AboutMe() {
             </h1>
             <div className="mt-4 ml-4">
               <div className="flex flex-row justify-start items-center ">
-                <a
+                <Link
                   href={userData.socialLinks.facebook}
                   className="flex flex-row items-center space-x-4 group"
                 >
@@ -77,10 +78,10 @@ export default function AboutMe() {
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                     Facebook
                   </p>
-                </a>
+                </Link>
               </div>
               <div className="flex flex-row justify-start items-center">
-                <a
+                <Link
                   href={userData.socialLinks.github}
                   className="flex flex-row items-center space-x-4 group"
                 >
@@ -89,10 +90,10 @@ export default function AboutMe() {
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                     GitHub
                   </p>
-                </a>
+                </Link>
               </div>
               <div className="flex flex-row justify-start items-center">
-                <a
+                <Link
                   href={userData.socialLinks.linkedin}
                   className="flex flex-row items-center space-x-4 group"
                 >
@@ -101,10 +102,10 @@ export default function AboutMe() {
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                     LinkedIn
                   </p>
-                </a>
+                </Link>
               </div>
               <div className="flex flex-row justify-start items-center">
-                <a
+                <Link
                   href={userData.socialLinks.instagram}
                   className="flex flex-row items-center space-x-4 group"
                 >
@@ -113,7 +114,7 @@ export default function AboutMe() {
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
                     Instagram
                   </p>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
