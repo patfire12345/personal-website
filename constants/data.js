@@ -41,11 +41,11 @@ const userData = {
   },
   experience: [
     {
-      title: "Expected Graduation",
+      title: "Graduation",
       company: "University of Ottawa",
       year: "Jun 2023",
       companyLink: "https://www.uottawa.ca/en",
-      desc: "???",
+      desc: "Graduated with a double degree in (BASc) Biomedical Mechanical Engineering and (BSc) Computing Technology, with several federal government internships to build my software experience, ranging from data visualization to website and software development.",
     },
     {
       title: "Software Developer Internship",
@@ -60,7 +60,7 @@ const userData = {
       company: "Personal Project",
       year: "Sept 2021",
       companyLink: "https://github.com/patfire12345/spotify-playlist-maker",
-      desc: "Created an algorithm that personalizes a playlist based on tinder-like selection process.",
+      desc: "With the help of the Spotify API and React, I created an algorithm that personalizes a playlist by combining listening to songs with a tinder-like selection process.",
     },
     {
       title: "Web Developer Internship",
