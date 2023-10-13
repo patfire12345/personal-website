@@ -13,7 +13,7 @@ export default function LatestCode({ repositories }) {
   useEffect(() => {
     // let latestRepos = await getLatestRepos(userData);
     // console.log("latestRepos", latestRepos);
-    getRepositories;
+    getRepositories();
   }, []);
   return (
     <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
